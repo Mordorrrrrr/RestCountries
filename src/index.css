@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark>* {
+    background-color: hsl(207, 26%, 17%);
+}
+
+#root {
+    min-width: 100vw;
+}
+
+* {
+    font-family: "Nunito Sans";
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #F2F2F2;
+    display: grid;
+    justify-content: center;
+}
+
+body,
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
